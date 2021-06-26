@@ -21,3 +21,43 @@ header h1 {
   text-align: center;
   font-size: 40px;
 }
+
+header p {
+  font-size: 20px;
+}
+
+.pads {
+  background-color: lightblue;
+  width: 100%;
+  display: flex;
+}
+
+.pads > div {
+  height: 100px;
+  width: 100px;
+  flex: 1;
+}
+
+.pad1 {
+  background: #32ff7e;
+}
+
+.pad2 {
+  background: #7efff5;
+}
+
+.pad3 {
+  background: #ff3838;
+}
+
+.pad4 {
+  background: #ffaf40;
+}
+
+.pad5 {
+  background: #fff200;
+}
+
+.pad6 {
+  background: #7d5fff;
+}
